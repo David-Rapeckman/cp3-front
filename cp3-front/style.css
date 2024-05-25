@@ -68,3 +68,12 @@ button:hover {
 #logoutBtn:hover {
     background-color: #c82333;
 }
+
+#logoutBtn:disabled {
+    background-color: #dc3545;
+    cursor: not-allowed;
+}
+
+#logoutBtn:disabled:hover {
+    background-color: #dc3545;
+}
